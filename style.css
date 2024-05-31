@@ -2,3 +2,6 @@ body {
     background: rgb(0,51,18);
     background: linear-gradient(90deg, rgba(0,51,18,1) 0%, rgba(0,0,0,1) 51%, rgba(37,0,0,1) 100%);
 }
+header h {
+    display: inline-block;
+}
