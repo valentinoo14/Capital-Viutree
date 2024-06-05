@@ -1,7 +1,217 @@
+/* 
+CSS RESET
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* clear fix */
+.cf:before,
+.cf:after {
+	content: " "; /* 1 */
+	display: table; /* 2 */
+}
+ 
+.cf:after {
+	clear: both;
+}
+
+.cf {
+	zoom: 1;
+}
+
+
+
+/* style */
 body {
     background: rgb(0,51,18);
     background: linear-gradient(90deg, rgba(0,51,18,1) 0%, rgba(0,0,0,1) 51%, rgba(37,0,0,1) 100%);
+	font-family: monospace;
 }
-header h {
-    display: inline-block;
+
+/* Header */
+header img {
+	float: left;
+}
+.logo {
+	margin-left: 30px;
+}
+header ul li{
+	float: right;
+}
+header ul li .gambar-2 {
+	margin-top: 30px;
+}
+.gambar-2 {
+	width: 150px;
+}
+
+/* section-1 */
+.section-1 {
+	max-width: 100%;
+	max-height: 50%;
+	color: white;
+	text-align: center;
+	font-family: monospace;
+}
+.section-1 h1, h2 {
+	font-weight: bold;
+}
+.section-1 h1 {
+	font-size: 55px;
+	margin-top: 3%;
+}
+.section-1 h2 {
+	font-size: 50px;
+	margin-top: 5px;
+	color: green;
+}
+.section-1 h3 {
+	margin-top: 5px;
+	font-size: 15px;
+}
+.section-1 img {
+	margin-top: 28px;
+	width: 600px;
+}
+
+/* section line */
+.section-line {
+	margin-top: 70px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.section-line a img {
+	width: 125px;
+}
+.line-1 {
+	width: 650px;
+	float: left;
+}
+.line-2 {
+	width: 650px;
+	float: right;
+}
+.line-1, .line-2 {
+	margin-top: 15px;
+}
+
+/* section 2 */
+.section-2 {
+	width: 800px;
+	height: 900px;
+	margin: auto;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.judul {
+	color: white;
+	text-align: center;
+	padding: 30px 0;
+	font-size: 30px;
+}
+.line {
+	margin: auto;
+	width: 100px;
+}
+.bagian-1-and-3, .bagian-2, .bagian-3 {
+	width: 100%;
+    height: 270px;
+    padding: 10px;
+}
+/* bagian 1 */
+.tulisan-1-and-3 {
+	width: 40%;
+	padding: 0 0 0 20px;
+	font-size: 15px;
+	line-height: 20px;
+	color: white;
+	float: left;
+}
+.tulisan-1-and-3 span {
+	color: rgb(0, 255, 0);
+}
+.bagian-1-and-3 img {
+	float: right;
+	width: 250px;
+	margin-right: 10%;
+}
+
+/* bagian-2 */
+.bagian-2 img {
+	float: left;
+	width: 250px;
+	margin-left: 10%;
+}
+.tulisan-2 {
+	width: 40%;
+	padding: 0 0 0 20px;
+	font-size: 15px;
+	line-height: 20px;
+	color: white;
+	float: right;
+}
+.tulisan-2 span {
+	color: rgb(0, 255, 0);
+}
+
+
+
+/* Resposive media */
+/* for only mobile phone */
+@media only screen and (max-width: 800px) {
+	.logo {
+		margin-left: 30px;
+		width: 115px;
+		height: 96px;
+	}
+	.gambar-1 {
+		width: 115px;
+		height: 90px;
+	}
+	.gambar-2 {
+		width: 123px;
+		height: 33px;
+	}
 }
