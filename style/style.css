@@ -224,10 +224,10 @@ header ul li .gambar-2 {
 	text-align: center;
 }
 .s3-b1 h1 {
-	font-size: 35px;
+	font-size: 50px;
 }
 .s3-b1 h2 {
-	font-size: 30px;
+	font-size: 40px;
 	color: rgb(113, 255, 113);
 }
 
@@ -244,8 +244,8 @@ header ul li .gambar-2 {
 	box-sizing: border-box;
 }
 .s3-b2 p {
-	font-size: 30px;
-	line-height: 40px;
+	font-size: 50px;
+	line-height: 55px;
 	margin-left: 30px;
 }
 .s3-b2 span{
@@ -261,7 +261,7 @@ header ul li .gambar-2 {
 .s3-b3 img {
 	text-align: center;
 	margin-left: 150px;
-	margin-top: -150px;
+	margin-top: -100px;
 	width: 550px;
 	height: 550px;
 }
@@ -270,6 +270,7 @@ header ul li .gambar-2 {
 /* section 4 */
 .section-4 { 
 	text-align: center;
+	margin: auto;
 	color: white;
 }
 .section-4 h1 {
@@ -279,8 +280,14 @@ header ul li .gambar-2 {
 	font-size: 30px;
 }
 .section-4 img{
-    margin-top: 50px;
+	margin: 50px 25px 0 25px;
 	width: 500px;
+}
+.section-4 .x1 {
+	height: 550px;
+}
+.section-4 .x2 {
+	height: 575px;
 }
 .section-4 p {
 	margin: 200px auto -100px auto;
@@ -333,7 +340,8 @@ footer {
 	margin-top: 100px;
 	height: 400px;
 	box-sizing: border-box;
-	background-color: rgb(18, 18, 18);
+	background: rgb(0,42,22);
+	background: linear-gradient(90deg, rgba(0,42,22,0.8963234952183998) 0%, rgba(0,0,0,0.949544783733806) 51%, rgba(27,0,0,0.8851190134256828) 100%);
 	color: aliceblue;
 }
 .about {
