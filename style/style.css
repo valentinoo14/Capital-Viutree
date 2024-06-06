@@ -391,21 +391,3 @@ footer {
 	text-align: center;
 	font-size: 27px;
 }
-
-/* Resposive media */
-/* for only ipad or tablet */
-@media only screen and (max-width: 800px) {
-	.logo {
-		margin-left: 30px;
-		width: 115px;
-		height: 96px;
-	}
-	.gambar-1 {
-		width: 115px;
-		height: 90px;
-	}
-	.gambar-2 {
-		width: 123px;
-		height: 33px;
-	}
-}
