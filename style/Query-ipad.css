@@ -24,18 +24,16 @@
     }
 
     /* section line */
-    .section-line img {
-        display: block;
-        margin: auto;
-    }
     .line-1, .line-2 {
-        margin-top: 0;
-        display: block;
+        width: 40%;
+
     }
-    .line-1 {
-        margin-bottom: 10px;
+
+    /* section 3 */
+    .s3-b2 p {
+        font-size: 18px;
     }
-    .line-2 {
-        margin-top: 10px;
+    .s3-b3 img {
+        margin-top: -20px;
     }
 }

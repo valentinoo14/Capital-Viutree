@@ -1,0 +1,37 @@
+/* responsive untuk media untuk mobile phone */
+@media only screen and (max-width: 500px) {
+    /* header */
+    .logo {
+		margin-left: 10px;
+		width: 90px;
+		height: 66px;
+	}
+	.gambar-1 {
+        margin-top: -5px;
+		width: 120px;
+		height: 80px;
+        margin-left: -20px;
+	}
+	.gambar-2 {
+        transform: translateY(-5px);
+		width: 80px;
+		height: 23px;
+	}
+
+    /* introduction */
+    .section-1 {
+        padding: 15px;
+        box-sizing: border-box;
+        height: 100vh;
+    }
+    .section-1 h1 {
+        font-size: 40px;
+    }
+    .section-1 h2 {
+        font-size: 25px;
+    }
+    .section-1 img {
+        height: 40%;
+        width: 60%;
+    }
+}
