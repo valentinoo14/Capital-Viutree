@@ -25,13 +25,124 @@
         height: 100vh;
     }
     .section-1 h1 {
-        font-size: 40px;
+        font-size: 35px;
+        margin-top: 50px;
     }
     .section-1 h2 {
         font-size: 25px;
+        margin-top: 20px;
+    }
+    .section-1 h3 {
+        font-size: 15px;
+        margin-top: 10px;
     }
     .section-1 img {
-        height: 40%;
+        margin-top: 80px;
+        margin-bottom: 0;
+        height: 50%;
+        width: 80%;
+    }
+
+    /* section line */
+    .section-line {
+        margin-top: 0;
+        margin: auto;
+    }
+    .line-1, .line-2 {
+        width: 70%;
+    }
+    .line-1 {
+        margin-bottom: 10px;
+    }
+    .line-2 {
+        margin-top: 10px;
+    }
+
+    /* visi dan misi */
+    .section-2 {
+        width: 100%;
+    }
+    .bagian-1-and-3, .bagian-2, .bagian-3 {
+        padding: 2px;
+    }
+    .judul {
+        font-size: 25px;
+    }
+    .tulisan-1-and-3, .tulisan-2 {
         width: 60%;
+        margin: 10px 0 50px 0;
+    }
+    img.net, img.net1 {
+        margin: 10px 10px 50px 0;
+    }
+    .tulisan-2 {
+        width: 60%;
+        float: left;
+    }
+    img.net1 {
+        float: right;
+    }
+
+    /* tipe orang */
+    .section-4 h1 {
+        font-size: 30px;
+    }
+    .section-4 h2 {
+        font-size: 20px;
+    }
+    img.x2, img.x1 {
+        width: 70%;
+    }
+    img.x2 {
+        height: 50%;
+    }
+    img.x2:hover {
+        width: 72%;
+        height: 51%;
+    }
+    img.x1 {
+        height: 51%;
+    }
+    img.x1:hover {
+        height: 55%;
+        width: 72%;
+    }
+    .section-4 p {
+        margin-top: 15%;
+        width: 35%;
+    }
+    .section-4 a {
+        font-size: 10px;
+    }
+
+    /* paket harga */
+    .section-5 a h4 {
+        width: 40%;
+    }
+    .section-5 a {
+        margin-top: 20%;
+        font-size: 10px;
+    }
+
+
+    /* footer */
+    .p-1 img {
+        width: 100px;
+        height: 80px;
+    }
+    .p-2 h1 {
+        font-size: 20px;
+    }
+    .p-2 a {
+        font-size: 15px;
+    }
+    .p-3 h1 {
+        font-size: 20px;
+    }
+    .p-3 a {
+        font-size: 15px;
+    }
+    .copy {
+        font-size: 15px;
     }
 }

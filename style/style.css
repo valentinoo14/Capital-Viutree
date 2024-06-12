@@ -169,6 +169,7 @@ header ul li .gambar-2 {
 	width: 100%;
     height: 270px;
     padding: 10px;
+	box-sizing: border-box;
 }
 /* bagian 1 */
 .tulisan-1-and-3 {
@@ -221,7 +222,7 @@ header ul li .gambar-2 {
 }
 .s3-b1 {
 	height: 200px;
-	width: max-content;
+	width: 100%;
 	margin: auto;
 	text-align: center;
 }
@@ -277,9 +278,6 @@ header ul li .gambar-2 {
 .section-4 img{
 	margin: 50px 25px 0 25px;
 	width: 400px;
-}
-.section-4 .x1 {
-	height: 450px;
 }
 .x1 {
 	height: 450px;
