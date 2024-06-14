@@ -1,0 +1,181 @@
+/* 
+CSS RESET
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* clear fix */
+.cf:before,
+.cf:after {
+	content: " "; /* 1 */
+	display: table; /* 2 */
+}
+ 
+.cf:after {
+	clear: both;
+}
+
+.cf {
+	zoom: 1;
+}
+
+/* style */
+body {
+    background: rgb(0,51,18);
+    background: linear-gradient(90deg, rgba(0,51,18,1) 0%, rgba(0,0,0,1) 51%, rgba(37,0,0,1) 100%);
+}
+main {
+    margin: 10% auto;
+    width: 60%;
+    height: 55vh;
+    background-color: white;
+    transition: box-shadow 3s ease-in-out;
+    border-radius: 5px;
+}
+main:hover {
+    animation: shadowColorChange 10s infinite;
+}
+.one {
+    width: 55%;
+    height: 100%;
+    box-sizing: border-box;
+    float: left;
+}
+.one p {
+    margin: auto;
+    background-image: url(../img/loginimage.png);
+    width: 400px;
+    height: 400px;
+    margin-top: 40px;
+    box-sizing: border-box;
+    background-size: cover !important;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+.two {
+    width: 44.5%;
+    height: 100%;
+    float: right;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+.two img {
+    width: 150px;
+    height: 60px;
+}
+.intro {
+    margin-bottom: 10px;
+}
+.intro h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+.intro #one {
+    opacity: .9;
+}
+label, input {
+    display: block;
+    margin: 10px 0;
+}
+label {
+    font-size: 18px;
+}
+#phone {
+    width: 100px;
+}
+#username, #pass, #pass-c {
+    width: 250px;
+}
+.gg {
+    display: inline;
+}
+.zzz {
+    font-size: 13px;
+}
+span a{
+    color: rgb(0, 255, 38);
+    line-height: 1px;
+}
+a {
+    text-decoration: none;
+}
+.check {
+    margin-top: -15px;
+}
+h6 {
+    width: 250px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background-color: rgb(0, 181, 27);
+    margin-top: 10px;
+    border-radius: 5px;
+}
+h6 a {
+    text-decoration: none;
+    color: white;
+}
+
+/* animasi warna */
+@keyframes shadowColorChange {
+    0% {
+        box-shadow: 0 4px 500px rgba(44, 0, 0, 0.5);
+    }
+    20% {
+        box-shadow: 0 4px 500px rgba(255, 0, 0, 0.5);
+    }
+    50% {
+        box-shadow: 0 4px 500px rgba(0, 0, 0, 0.5);
+    }
+    70% {
+        box-shadow: 0 4px 500px rgba(0, 255, 0, 0.5);
+    }
+    90% {
+        box-shadow: 0 4px 500px rgba(0, 84, 0, 0.5);
+    }
+    100% {
+        box-shadow: 0 4px 500px rgba(0, 0, 0, 0.5);
+    }
+}
