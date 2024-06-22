@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- my css -->
+     <link rel="stylesheet" href="../style/Dasboard.css">
+     <link rel="stylesheet" href="../style/Footer.css">
+     <!-- my script -->
+     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns"></script>
+     <script src="../js/das.json"></script>
+    <title>Dasboard</title>
+</head>
+<body>
+    
+    <header class="cf">
+        <img class="logo" src="../img/logo.png">
+        <nav class="cf">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a class="decoration" href="#">Dasboard</a></li>
+                <li><a href="#">Resource</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- introduction -->
+     <section class="intro">
+        <section class="intro-1">
+            <h1>Hai, Vincent <br> Suciadi</h1>
+        </section>
+        <section class="intro-2">
+            <p class="gambar-intro"></p>
+        </section>
+     </section>
+
+     <!-- leaderboard -->
+      <section class="leaderboard">
+        <section class="judul">
+            <h1>Leaderboard</h1>
+            <p>+ 70,54 (0,97%) &#9650; Today</p>
+        </section>
+        <section class="ihsg">
+            <canvas id="ihsgChart"></canvas>
+        </section>
+      </section>
+
+      <!-- Recomandacy -->
+       <section class="rc">
+        <section class="judul-rc">
+            <h1>Recomendacy Education</h1>
+        </section>
+        <section class="edu-rc">
+            <span class="card-1">
+                <section class="img">
+                    <img class="gambar-konten url-1">
+                    <h1>ChartPattern</h1>
+                </section>
+                <section class="deskripsi">
+                    <h2>Pola Grafik</h2>
+                    <h3>Chart patterns atau pola grafik adalah formasi yang terbentuk pada grafik harga saham dan digunakan oleh trader untuk memprediksi pergerakan harga di masa depan. Pola grafik ini dapat mengidentifi ....</h3>
+                </section>
+            </span>
+            <span class="card-1">
+                <section class="img">
+                    <img class="gambar-konten url-2">
+                    <h1>Basic Principles of The Stock Market</h1>
+                </section>
+                <section class="deskripsi">
+                    <h2>Fungsi Pasar Saham</h2>
+                    <h3>Pasar saham adalah tempat di mana saham perusahaan diperdagangkan antara investor, memungkinkan perusahaan untuk mengumpulkan modal dan investor untuk mendapatkan bagian kepemilikan serta ....</h3>
+                </section>
+            </span>
+            <span class="card-1">
+                <section class="img">
+                    <img class="gambar-konten url-3">
+                    <h1>Money Management</h1>
+                </section>
+                <section class="deskripsi">
+                    <h2>Manajemen Resiko</h2>
+                    <h3>Manajemen uang adalah aspek penting dalam trading yang melibatkan pengelolaan risiko dan pengaturan modal secara efektif untuk memaksimalkan keuntungan dan meminimalkan kerugian ....</h3>
+                </section>
+            </span>
+            <span class="card-1">
+                <section class="img">
+                    <img class="gambar-konten url-4">
+                    <h1>Venture Capital</h1>
+                </section>
+                <section class="deskripsi">
+                    <h2>Venture Equity Capitalk</h2>
+                    <h3>Lembaga keuangan yang memberikan investasi ke berbagai macam usaha kecil atau startup.Modal dari venture capital umumnya berasal dari investor yang cukup kaya, bank investasi.</h3>
+                </section>
+            </span>
+            <span class="card-1">
+                <section class="img">
+                    <img class="gambar-konten url-4">
+                    <h1>Liquid Tokens</h1>
+                </section>
+                <section class="deskripsi">
+                    <h2>Liquid Tokens</h2>
+                    <h3>Aset digital yang dapat dengan mudah ditukar atau diperdagangkan di pasar kripto dengan volume perdagangan yang tinggi. Karakteristik utama dari liquid tokens adalah likuiditas yang tinggi.</h3>
+                </section>
+            </span>
+            <hr>
+        </section>
+       </section>
+
+       <section class="Compelete">
+        <h1>Completed Lesson</h1>
+        <section class="konten">
+            <span class="card-2">
+                <section class="img">
+                    <img class="gambar-konten url-3">
+                    <h1>Money Management</h1>
+                </section>
+                <section class="deskripsi">
+                    <h2>Manajemen Resiko</h2>
+                    <h3>Manajemen uang adalah aspek penting dalam trading yang melibatkan pengelolaan risiko dan pengaturan modal secara efektif untuk memaksimalkan keuntungan dan meminimalkan kerugian ....</h3>
+                </section>
+            </span>
+            <span class="card-2">
+                <section class="img">
+                    <img class="gambar-konten url-4">
+                    <h1>Venture Capital</h1>
+                </section>
+                <section class="deskripsi">
+                    <h2>Venture Equity Capitalk</h2>
+                    <h3>Lembaga keuangan yang memberikan investasi ke berbagai macam usaha kecil atau startup.Modal dari venture capital umumnya berasal dari investor yang cukup kaya, bank investasi.</h3>
+                </section>
+            </span>
+            <span class="card-2">
+                <section class="img">
+                    <img class="gambar-konten url-2">
+                    <h1>Basic Principles of The Stock Market</h1>
+                </section>
+                <section class="deskripsi">
+                    <h2>Fungsi Pasar Saham</h2>
+                    <h3>Pasar saham adalah tempat di mana saham perusahaan diperdagangkan antara investor, memungkinkan perusahaan untuk mengumpulkan modal dan investor untuk mendapatkan bagian kepemilikan serta ....</h3>
+                </section>
+            </span>
+        </section>
+       </section>
+
+       <!-- footer -->
+       <footer>
+        <div class="about-footer">
+            <div class="footer-1">
+                <img src="../img/logo.png" alt="">
+            </div>
+            <div class="footer-2">
+                <h1>Contact Info</h1>
+                <a href="#">WhatsApp</a>
+                <a href="#">E-Mail</a>
+            </div>
+            <div class="footer-3">
+                <h1>Follow Us</h1>
+                <a href="#">Instagram</a>
+                <a href="#">Telegram</a>
+                <a href="#">Discord</a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>
+                Copyright &copy; 2024 Capital Viutre <br> All right reserved
+            </p>
+        </div>
+    </footer>
+
+
+      <!-- script -->
+       <script src="../js/dasboard.js"></script>
+    
+</body>
+</html>
