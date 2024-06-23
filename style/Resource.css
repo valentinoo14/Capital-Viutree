@@ -1,0 +1,66 @@
+body {
+    background-color: grey;
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+/* Style for header */
+header {
+    color: white !important;
+    background-color: rgb(0, 0, 0);
+}
+
+.header-container-resource {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    background-color: aqua;
+}
+
+/* Style for logo container */
+.logo-container-resource {
+    width: 45%;
+    align-items: center;
+    display: flex;
+    justify-content: left;
+    background-color: rgb(22, 22, 136);
+}
+.logo-resource {
+	margin-left: 30px;
+    background-color: rgb(66, 38, 4);
+}
+
+
+/* Style for menu container */
+.menu-container-resource {
+    width: 55%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: blue;
+
+}
+.menu-container-resource .menu-resource ul li a{
+    color: white !important;
+    text-decoration: none;
+}
+
+.menu-resource ul {
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.menu-resource li {
+    color: rgb(81, 7, 7) !important;
+    font-size: 25px;
+    margin-right: 100px;
+    font-weight: 400px;
+}
+.menu-resource ul li:nth-child(3){
+    font-weight: bolder;
+    text-decoration: underline !important;
+}
