@@ -5,11 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- my css -->
      <link rel="stylesheet" href="../style/login.css">
+     <link rel="stylesheet" href="../style/QueryLogin.css">
+
+     <!-- my script -->
+      <script src="../js/login.js"></script>
     <title>Capital Viutre Login Account</title>
 </head>
 <body>
     
-    <main>
+    <main id="default">
         <section class="one cf">
             <p></p>
         </section>
@@ -31,6 +35,32 @@
                 <a href="signup.html">Create an Account</a>
             </p>
             </section>
+        </section>
+    </main>
+
+    <main id="respon">
+        <section class="intro">
+            <img src="../img/LOGOnama.png" alt="Capital Viutre">
+            <h1>Welcome Investor</h1>
+            <p id="one">Login to access member area</p>
+        </section>
+        <section class="form-container">
+            <div class="image">
+                <img src="../img/loginpage.png" alt="Login Image">
+            </div>
+            <div class="form">
+                <label for="username" class="username">Username/Email</label>
+                <input type="text" id="username">
+                <label for="pass">Password</label>
+                <input type="password" id="pass">
+                <p class="forgot">
+                    <a href="Forgot.html">Forgot Password?</a>
+                </p>
+                <h6><a href="../Dashboard/Dashboard.html">Login</a></h6>
+                <p class="create">Not Registered yet? 
+                    <a href="signup.html">Create an Account</a>
+                </p>
+            </div>
         </section>
     </main>
 

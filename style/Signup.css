@@ -181,3 +181,73 @@ h6 a {
         box-shadow: 0 4px 500px rgba(0, 0, 0, 0.5);
     }
 }
+
+@media only screen and (max-width: 500px) {
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        padding: 20px;
+        background: rgb(0,51,18);
+        background: linear-gradient(90deg, rgba(0,51,18,1) 0%, rgba(0,0,0,1) 51%, rgba(37,0,0,1) 100%);
+    }
+    main {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 20px;
+        background-color: rgb(255, 255, 255,);
+        box-shadow: none;
+        border-radius: 0;
+        position: relative;
+    }
+    
+
+    .one {
+        width: 100%;
+        height: 200px;
+        position: relative;
+        display: none;
+    }
+
+    .one .image-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.3); /* Transparansi putih */
+        z-index: -1; /* Letakkan di atas gambar */
+    }
+
+    .one p {
+        width: 100%;
+        height: 200px;
+        margin-top: 0;
+        z-index: -2; /* Letakkan di atas overlay */
+    }
+
+    .two {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .two img {
+        width: 120px;
+        height: 50px;
+        margin-bottom: 0;
+    }
+
+    label, input {
+        margin: 5px 0;
+        width: 100%;
+    }
+
+    h6 {
+        width: 100%;
+    }
+}
+

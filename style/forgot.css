@@ -152,3 +152,63 @@ button {
         box-shadow: 0 4px 500px rgba(0, 0, 0, 0.5);
     }
 }
+
+@media only screen and (max-width: 500px) {
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        padding: 20px;
+        background: rgb(0,51,18);
+        background: linear-gradient(90deg, rgba(0,51,18,1) 0%, rgba(0,0,0,1) 51%, rgba(37,0,0,1) 100%);
+    }
+    main {
+        width: 80%;
+        height: 40vh;
+        margin: 20px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .b1 {
+        display: none;
+    }
+
+    .b2 {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+    .gambar2 {
+        width: 100px;
+        height: 40px;
+        margin-bottom: 10px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 10px;
+        margin-top: 5px;
+    }
+
+    input {
+        margin-top: 10px;
+        width: 80%;
+    }
+
+    button {
+        margin-top: 20px;
+        transform: translateX(20px);
+        width: 80%;
+    }
+}
+
+
