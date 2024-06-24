@@ -146,11 +146,9 @@ nav ul li {
     display: inline-block;
     margin: 10px;
 }
-.menu-resource li {
-    color: rgb(81, 7, 7) !important;
-    font-size: 25px;
-    margin-right: 100px;
-    font-weight: 400px;
+nav ul {
+    float: right;
+    margin-right: 30%;
 }
 
 
