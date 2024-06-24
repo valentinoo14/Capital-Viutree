@@ -156,7 +156,7 @@ header {
 .menu-resource li {
     color: rgb(81, 7, 7) !important;
     font-size: 25px;
-    margin-right: 100px;
+    margin-right: 50px;
     font-weight: 400px;
 }
 .menu-resource ul li:nth-child(3){
@@ -216,4 +216,37 @@ main {
     border-radius: 13px;
     cursor: pointer;
     text-align: center
+}
+
+/* Artikel 2 */
+.article2-resource {
+    padding: 55px 20px;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+.article2-section-resource {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 55px 20px;
+}
+
+.box {
+    background-color: #f0f0f0; /* Warna latar kotak */
+    height: 560px;
+    margin-bottom: 35px; /* Jarak antar kotak vertikal */
+    flex: 1 0 calc(33.333% - 35px); /* Lebar kotak dengan margin horizontal */
+    max-width: calc(33.333% - 35px); /* Lebar maksimum kotak */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin-right: 35px; /* Jarak antar kotak horizontal */
+    border: 1px solid #ccc; /* Atur border sesuai kebutuhan */
+}
+
+/* Menghilangkan margin kanan dari kotak pada akhir baris */
+.article2-section-resource .box:nth-child(3n) {
+    margin-right: 0;
 }
