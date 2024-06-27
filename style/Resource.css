@@ -162,9 +162,6 @@ main {
     text-align: center;
     margin: auto;
 }
-.article2-section-resource {
-    margin: auto;
-}
 
 .article1-sec1-resource, .article1-sec2-resource, .article1-sec3-resource {
     display: flex;
@@ -177,19 +174,16 @@ main {
 .article1-sec1-resource {
     font-size: 60px;
     height: 180px;
-    background-color: rgb(17, 97, 70);
 }
 
 .article1-sec2-resource {
     font-size: 25px;
     height: 100px;
-    background-color: rgb(139, 85, 19);
 }
 
 .article1-sec3-resource {
     font-size: 18px;
     height: 120px;
-    background-color: rgb(9, 59, 106);
 }
 .article1-h1 {
     font-weight: 800;
@@ -197,12 +191,16 @@ main {
 .article1-h2 {
     font-weight: 400;
 }
+.space {
+    display: block;
+    margin-top: 15px;
+}
+
 .article1-button-resource {
     width: 200px;
     height: 40px;
     font-size: 15px;
     font-weight: normal;
-    background-color: #00CF9D;
     color: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
@@ -214,7 +212,8 @@ main {
 
 /* Artikel 2 */
 .article2-resource {
-    background-color: antiquewhite;
+    background-color: #1B1B1E;
+    border-radius: 10px;
     text-align: center;
 }
 
